@@ -1,15 +1,14 @@
 .servic {
   padding-bottom: 94px;
+  & .item + .item {
+    margin-left: 30px;
+  }
 }
 
 .servic-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.servic .item + .item {
-  margin-left: 30px;
 }
 
 .servic-title {
