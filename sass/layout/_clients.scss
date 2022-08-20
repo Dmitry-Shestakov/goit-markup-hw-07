@@ -3,7 +3,7 @@
   padding-bottom: 94px;
 }
 
-.clients-title {
+.clients__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -12,13 +12,13 @@
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.clients-links {
+.clients__links {
   width: 170px;
   height: 92px;
   justify-content: center;
@@ -35,6 +35,6 @@
   }
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 }
