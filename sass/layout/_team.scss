@@ -6,9 +6,7 @@
 
 .team__title {
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  @include font(36px, 1.16, 700, null);
   text-align: center;
   margin-bottom: 50px;
 }
@@ -37,15 +35,12 @@
 
 .team__cards {
   color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.9;
+  @include font(16px, 1.9, 500, null);
   margin-bottom: 10px;
 }
 
 .team__text {
-  font-size: 16px;
-  line-height: 1.8;
+  @include font(16px, 1.8, null, null);
   margin-bottom: 16px;
 }
 

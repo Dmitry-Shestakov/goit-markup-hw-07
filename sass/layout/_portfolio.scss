@@ -32,9 +32,7 @@
 
 .portfolio__btn {
   font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
+  @include font(16px, 1.6, 500, null);
   padding: 6px 22px;
   border: 0;
   border-radius: 4px;
@@ -55,15 +53,11 @@
 .project__title {
   margin-bottom: 4px;
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(18px, 2, 700, 0.06em);
 }
 
 .portfolio__text {
-  font-size: 16px;
-  line-height: 1.9;
+  @include font(16px, 1.9, null, null);
 }
 
 .cards-set {
@@ -102,8 +96,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  font-size: 18px;
-  line-height: 1.55;
+  @include font(18px, 1.55, null, null);
   color: #ffffff;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);

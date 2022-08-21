@@ -5,9 +5,7 @@
 
 .clients__title {
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  @include font(36px, 1.16, 700, null);
   text-align: center;
   margin-bottom: 50px;
 }

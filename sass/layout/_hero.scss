@@ -19,10 +19,7 @@
 
 .hero__title {
   color: #ffffff;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
+  @include font(44px, 1.4, 900, 0.06em);
   margin-bottom: 30px;
 }
 
@@ -33,17 +30,11 @@
   border: 0;
   min-width: 200px;
   margin: 0 auto;
-
   color: rgba(33, 33, 33, 1);
   background-color: var(--accent-color);
-
   font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
+  @include font(16px, 1.9, 700, 0.06em);
   cursor: pointer;
-
   animation: scale 3s infinite;
 }
 
