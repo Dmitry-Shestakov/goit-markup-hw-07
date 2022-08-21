@@ -8,12 +8,32 @@ header {
   height: 80px;
 }
 
+.logo__margin {
+  margin-left: auto;
+}
+
+.logo__studio--dark {
+  color: #000000;
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo__studio--white {
+  color: #ffffff;
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
 .navigation {
   display: flex;
   margin-left: 93px;
+
   .navigation__link {
     display: inline-flex;
-
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -39,8 +59,9 @@ header {
   }
 }
 
-.current {
+.navigation__link--current {
   position: relative;
+
   &::after {
     position: absolute;
     content: '';
@@ -51,6 +72,10 @@ header {
     bottom: 0;
     background-color: var(--accent-color);
   }
+}
+
+.navigation__link.navigation__link--current {
+  color: var(--accent-color);
 }
 
 .contacts-position {
