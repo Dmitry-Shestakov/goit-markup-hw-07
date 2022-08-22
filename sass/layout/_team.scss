@@ -35,12 +35,12 @@
 
 .team__cards {
   color: var(--title-text-color);
-  @include font(16px, 1.9, 500, null);
+  @include font(16px, 1.19, 500, null);
   margin-bottom: 10px;
 }
 
 .team__text {
-  @include font(16px, 1.8, null, null);
+  @include font(16px, 1.19, null, null);
   margin-bottom: 16px;
 }
 

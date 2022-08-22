@@ -114,6 +114,8 @@ p {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .model__btn-close:focus, .model__btn-close:hover {
   fill: var(--accent-color);
@@ -198,36 +200,36 @@ p {
   border-color: var(--accent-color);
 }
 
-.modal__field textarea::-webkit-input-placeholder {
-  font-size: 14px;
+.modal-comment::-webkit-input-placeholder {
+  font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal__field textarea::-moz-placeholder {
-  font-size: 14px;
+.modal-comment::-moz-placeholder {
+  font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal__field textarea:-ms-input-placeholder {
-  font-size: 14px;
+.modal-comment:-ms-input-placeholder {
+  font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal__field textarea::-ms-input-placeholder {
-  font-size: 14px;
+.modal-comment::-ms-input-placeholder {
+  font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal__field textarea::placeholder {
-  font-size: 14px;
+.modal-comment::placeholder {
+  font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
@@ -327,10 +329,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 80px;
-}
-
-.logo__margin {
-  margin-left: auto;
 }
 
 .logo__studio--dark {
@@ -676,14 +674,14 @@ header {
 .team__cards {
   color: var(--title-text-color);
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
 .team__text {
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.19;
   margin-bottom: 16px;
 }
 
